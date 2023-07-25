@@ -7,6 +7,8 @@
     <style>
         .auto-style1 {
             width: 52%;
+
+
             height: 143px;
         }
         .auto-style2 {
