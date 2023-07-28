@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class WelcomePage
 
     '''<summary>
+    '''HyperLink1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''form1 control.
     '''</summary>
     '''<remarks>
@@ -21,15 +30,6 @@ Partial Public Class WelcomePage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-    '''<summary>
-    '''Button1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''ScriptManager1 control.
@@ -41,22 +41,31 @@ Partial Public Class WelcomePage
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
 
     '''<summary>
-    '''mp1 control.
+    '''ModalPopupExtender1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents mp1 As Global.AjaxControlToolkit.ModalPopupExtender
+    Protected WithEvents ModalPopupExtender1 As Global.AjaxControlToolkit.ModalPopupExtender
 
     '''<summary>
-    '''Panl1 control.
+    '''Panel1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Panl1 As Global.System.Web.UI.WebControls.Panel
+    Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''btnHighlightText0 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnHighlightText0 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Label2 control.
@@ -68,13 +77,13 @@ Partial Public Class WelcomePage
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox1 control.
+    '''Label9 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label3 control.
@@ -86,13 +95,13 @@ Partial Public Class WelcomePage
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox2 control.
+    '''Label10 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label4 control.
@@ -104,13 +113,13 @@ Partial Public Class WelcomePage
     Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox3 control.
+    '''Label11 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label11 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label5 control.
@@ -122,22 +131,13 @@ Partial Public Class WelcomePage
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox4 control.
+    '''Label12 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''RequiredFieldValidator2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label6 control.
@@ -149,13 +149,13 @@ Partial Public Class WelcomePage
     Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox5 control.
+    '''Label13 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label7 control.
@@ -167,56 +167,47 @@ Partial Public Class WelcomePage
     Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''RadioButton1 control.
+    '''Label14 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioButton1 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents Label14 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''RadioButton2 control.
+    '''Label15 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioButton2 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents Label15 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label8 control.
+    '''Label16 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Label16 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''ComboBox1 control.
+    '''Button1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ComboBox1 As Global.AjaxControlToolkit.ComboBox
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''btnEdit control.
+    '''btnClose control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnEdit As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Button3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnClose As Global.System.Web.UI.WebControls.Button
 End Class
