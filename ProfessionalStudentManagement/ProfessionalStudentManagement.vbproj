@@ -46,6 +46,10 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Techpro Comsoft pvt\StudentManagement\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -146,9 +150,15 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\HomeStyle.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="IMG\backWeb.jpg" />
+    <Content Include="IMG\lBack.jpg" />
+    <Content Include="IMG\login-icon-3048.png" />
+    <Content Include="IMG\LoginBack.jpg" />
     <Content Include="LoginForm.aspx" />
     <Content Include="LogingControl.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -238,6 +248,13 @@
     <Compile Include="Entity.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="LoginForm.aspx.designer.vb">
       <DependentUpon>LoginForm.aspx</DependentUpon>
